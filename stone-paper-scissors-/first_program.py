@@ -34,8 +34,3 @@ def get_choice():
         break   # To stop the infinite loop
 
 get_choice()
-'''import pyttsx3
-import os 
-engine = pyttsx3.init()
-engine.say("hey I am good")
-engine.runAndWait() '''
