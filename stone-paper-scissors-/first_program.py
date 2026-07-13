@@ -5,7 +5,6 @@ def get_choice():
         user = input("ENTER YOUR CHOICE: ")
         computer = ["stone", "paper", "scissors"]
         pasand = random.choice(computer)
-
         while(user != computer[0] and user != computer[1] and user != computer[2]):
             print("please enter the valid input!!")
             user = input("ENTER YOUR CHOICE: ")
